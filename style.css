@@ -1,0 +1,99 @@
+.block {
+    position: relative;
+    left: 25%;
+    background-color: white;
+    width: 608px;
+    height: 608px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: palegoldenrod;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    font-size: 150pt;
+    text-align: center;
+}
+
+#WinnerBlock {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#resetButton {
+    position: relative;
+    top: -400px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    font-size: 15pt;
+    background-color: pink;
+}
+
+#drawBlock {
+    font-size: 50pt;
+    text-align: center;
+    margin: 50px;
+}
+
+.rainbow {
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+    }
+}
